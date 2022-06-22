@@ -1,0 +1,190 @@
+(base) jpresto@Jonathans-MBP 4.6 Python OOP Mini-Project % python bank_main.py
+
+
+
+__________________DEMO BANK CLASS__________________
+Bank locations file loaded to dictionary.
+Bank locations initial load: 
+105 :  15 Wells Fargo 105 Culver City Branch
+106 :  15 Wells Fargo 106 West Hollywood Branch
+
+Adding new branch location...
+Bank locations updated: 
+105 :  15 Wells Fargo 105 Culver City Branch
+106 :  15 Wells Fargo 106 West Hollywood Branch
+107 :  15 Wells Fargo 107 Studio City Branch
+Output to csv file...
+Bank locations data was written to csv file at location sample_output/BankLocations.csv.
+
+
+
+__________________DEMO CUSTOMER CLASS__________________
+Customers file loaded to dictionary.
+Customers initial load: 
+600000 :  Susan Smith at 1233 Main Street, Los Angeles, CA  90002 1970-05-05 2019-01-01
+600001 :  Adam Lowe at 189 Scholars Rd, Culver City, CA  90001 1974-02-12 2019-02-11
+600002 :  Jennifer Garcia at 944 Milford Way, Beverly Hills, CA  90210 1960-07-04 2020-04-10
+600003 :  Robert Nielson at 1554 Croft Ave, West Hollywood, CA  90069 1966-08-02 2020-02-14
+600004 :  Megan Moore at 222 La Cienega, West Hollywood, CA  90069 1979-03-01 2020-03-16
+600005 :  Gregory Daniels at 2255 Culver Blvd, Culver City, CA  90230 1990-03-21 2020-11-19
+600006 :  Joe Black at 1545 Hayworth Ave, West Hollywood, CA  90046 1970-07-08 2021-06-10
+600007 :  Anne Grace at 1267 Sunset Blvd, West Hollywood, CA  90046 1976-08-05 2021-06-15
+600008 :  Erik Tillman at 7789 Bronson Ave, Glendale, CA  91046 1980-02-14 2021-09-01
+600009 :  Janet Coleman at 5688 N Vista Way Apt 101, Studio City, CA  91604 1982-05-25 2021-10-10
+
+Updating last name for customer_id 60000...
+Last name updated for cust 600000.
+Creating new customer with clean data...
+Creating new customer with invalid membership date and birth date...
+Invalid membership date entered for cust 600011!
+Invalid membership date entered for cust 600011! Re-enter date (YYYY-MM-DD): 
+2020-01-15
+Membership date updated to 2020-01-15 for cust 600011.
+Invalid birth date entered for cust 600011!
+Invalid birth date entered for cust 600011! Re-enter date (YYYY-MM-DD): 
+1965-09-08
+Birth date updated to 1965-09-08 for cust 600011.
+Customers updated: 
+600000 :  Susan Smith-Coleman at 1233 Main Street, Los Angeles, CA  90002 1970-05-05 2019-01-01
+600001 :  Adam Lowe at 189 Scholars Rd, Culver City, CA  90001 1974-02-12 2019-02-11
+600002 :  Jennifer Garcia at 944 Milford Way, Beverly Hills, CA  90210 1960-07-04 2020-04-10
+600003 :  Robert Nielson at 1554 Croft Ave, West Hollywood, CA  90069 1966-08-02 2020-02-14
+600004 :  Megan Moore at 222 La Cienega, West Hollywood, CA  90069 1979-03-01 2020-03-16
+600005 :  Gregory Daniels at 2255 Culver Blvd, Culver City, CA  90230 1990-03-21 2020-11-19
+600006 :  Joe Black at 1545 Hayworth Ave, West Hollywood, CA  90046 1970-07-08 2021-06-10
+600007 :  Anne Grace at 1267 Sunset Blvd, West Hollywood, CA  90046 1976-08-05 2021-06-15
+600008 :  Erik Tillman at 7789 Bronson Ave, Glendale, CA  91046 1980-02-14 2021-09-01
+600009 :  Janet Coleman at 5688 N Vista Way Apt 101, Studio City, CA  91604 1982-05-25 2021-10-10
+600010 :  Randy Moore at 123 Elm Street, Eagle Rock, CA  92256 1945-05-05 2022-01-09
+600011 :  Mary Crawford at 889 Riverdale Ct, Pasadena, CA  91103 1965-09-08 2020-01-15
+Output to csv file...
+Customers data was written to csv file at location sample_output/Customers.csv.
+
+
+
+__________________DEMO EMPLOYEE CLASS__________________
+Employees file loaded to dictionary.
+Employees initial load: 
+3000 :  Tina Miller 2015-01-01 
+3001 :  Daniel Goodwin 2015-01-01 
+3002 :  Jessica Hall 2016-12-10 
+3003 :  Walter Underwood 2016-10-15 
+Terminating employee 3001...
+Termination date updated to 2022-06-21 for employee 3001.
+Employees updated: 
+3000 :  Tina Miller 2015-01-01 
+3001 :  Daniel Goodwin 2015-01-01 2022-06-21
+3002 :  Jessica Hall 2016-12-10 
+3003 :  Walter Underwood 2016-10-15 
+Output to csv file...
+Employees data was written to csv file at location sample_output/Employees.csv.
+
+
+
+__________________DEMO CHECKING ACCOUNT SUBCLASS__________________
+Checking account file loaded to dictionary.
+Checking accounts initial load: 
+168555100 :  600000 168555100 $500.65
+168555105 :  600001 168555105 $1,008.95
+168555110 :  600002 168555110 $1,204.88
+168555115 :  600003 168555115 $3,300.25
+168555120 :  600004 168555120 $5,010.78
+168555125 :  600005 168555125 $458.23
+168555130 :  600006 168555130 $683.35
+168555135 :  600007 168555135 $781.03
+Creating checking accounts for cust 600008 and cust 600009...
+Withdrawing $1000 for checking account 168555120...
+Amount withdrawn is $1,000.00. New balance with applied fees is $4,010.53
+Depositing $700 for checking account 168555105...
+Withdrawing $600 for checking account 168555100, an amount greater than current balance...
+Amount withdrawn is $600.00. New balance with applied fees is $-99.60
+An overdraft fee of $18.00 has been applied due to negative balance!
+Your new balance is: $-117.60
+Checking accounts updated: 
+168555100 :  600000 168555100 $-117.60
+168555105 :  600001 168555105 $1,708.95
+168555110 :  600002 168555110 $1,204.88
+168555115 :  600003 168555115 $3,300.25
+168555120 :  600004 168555120 $4,010.53
+168555125 :  600005 168555125 $458.23
+168555130 :  600006 168555130 $683.35
+168555135 :  600007 168555135 $781.03
+168555140 :  600008 168555140 $800.50
+168555145 :  600009 168555145 $900.00
+Output to csv file...
+Checking accounts data was written to csv file at location sample_output/CheckingAccounts.csv.
+
+
+
+__________________DEMO SAVINGS ACCOUNT SUBCLASS__________________
+Savings account file loaded to dictionary.
+Savings accounts initial load: 
+168444555 :  600000 168444555 $15,000.45
+168444660 :  600001 168444660 $12,335.51
+168444665 :  600002 168444665 $17,665.45
+168444670 :  600003 168444670 $14,880.92
+168444675 :  600004 168444675 $12,005.45
+168444680 :  600005 168444680 $90,004.65
+168444685 :  600006 168444685 $13,000.50
+168444690 :  600007 168444690 $23,405.38
+168444695 :  600008 168444695 $24,589.92
+168444700 :  600009 168444700 $11,024.12
+Deposit $2000 for savings account 168444660...
+Balance next month for savings account 168444555 with earned interest is: 
+$15,011.08
+For savings account 168444555 what is the balance with earned interest over X months? Prompt user for months...
+Enter number of months to compound: 
+5
+$15,053.65
+Savings accounts updated: 
+168444555 :  600000 168444555 $15,000.45
+168444660 :  600001 168444660 $14,335.51
+168444665 :  600002 168444665 $17,665.45
+168444670 :  600003 168444670 $14,880.92
+168444675 :  600004 168444675 $12,005.45
+168444680 :  600005 168444680 $90,004.65
+168444685 :  600006 168444685 $13,000.50
+168444690 :  600007 168444690 $23,405.38
+168444695 :  600008 168444695 $24,589.92
+168444700 :  600009 168444700 $11,024.12
+Output to csv file...
+Savings accounts data was written to csv file at location sample_output/SavingsAccounts.csv.
+
+
+
+__________________DEMO CREDIT CARD ACCOUNTS SUBCLASS__________________
+Credit card file loaded to dictionary.
+Credit card accounts initial load: 
+4147-0989-3947-4110 :  600003 4147-0989-3947-4110 $0.00
+4147-0989-3995-4678 :  600004 4147-0989-3995-4678 $100.00
+4147-0989-4458-3321 :  600006 4147-0989-4458-3321 $267.00
+4147-0989-4412-9987 :  600007 4147-0989-4412-9987 $500.00
+Make a purchase of $365 for credit card 4147-0989-3947-4110...
+Withdraw cash advance of $2000 for credit card 4147-0989-3995-4678...
+Available credit for card 4147-0989-3995-4678 is now $5,850.00
+Now applying interest rate charges for next month...
+Credit card accounts updated: 
+4147-0989-3947-4110 :  600003 4147-0989-3947-4110 $369.96
+4147-0989-3995-4678 :  600004 4147-0989-3995-4678 $2,181.89
+4147-0989-4458-3321 :  600006 4147-0989-4458-3321 $271.78
+4147-0989-4412-9987 :  600007 4147-0989-4412-9987 $506.46
+Output to csv file...
+Credit cards data was written to csv file at location sample_output/CreditCards.csv.
+
+
+
+__________________DEMO LOAN ACCOUNTS SUBCLASS__________________
+Loan accounts file loaded to dictionary.
+Loan accounts initial load: 
+555-678-101 :  600000 555-678-101 $18,456.12 $25,000.00
+555-689-102 :  600001 555-689-102 $21,550.16 $28,000.00
+Monthly payment for loan account 555-678-101 is $475.43
+Make payment of $500 on loan account 555-678-101...
+Prior balance was $18,456.12
+Payment of $500.00 received. New balance is $17,956.12.
+Loan accounts updated: 
+555-678-101 :  600000 555-678-101 $17,956.12 $25,000.00
+555-689-102 :  600001 555-689-102 $21,550.16 $28,000.00
+Output to csv file...
+Loan accounts data was written to csv file at location sample_output/LoanAccounts.csv.
+(base) jpresto@Jonathans-MBP 4.6 Python OOP Mini-Project % 
