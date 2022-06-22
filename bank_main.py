@@ -24,6 +24,9 @@ saved in the same directory.
 2. bank_data_quality_checks.py
 3. bank_classes_and_io_funcs.py
 
+Input csv files are saved in folder "sample_input/"
+Output csv files are written to folder "sample_output/"
+
 Open new terminal and navigate to the directory where files are saved and execute:
 %  python bank_main.py
 
