@@ -9,7 +9,7 @@ Program was developed using Python 3.9.7, so make sure latest version is install
 This bank model defines entities for Bank, Branch(Bank), Customer, Employee, BankAccount, CheckingAccount(BankAaccount), SavingsAccount(BankAccount),
 Service, CreditCard(Service), and LoanAccount(Service).  
 
-Refer to the UML Diagram file "UML_Diagram_Bank_System.pdf" to get an overview of the various classes and subclasses.
+Refer to the UML Diagram file **UML_Diagram_Bank_System.pdf** to get an overview of the various classes and subclasses.
 
 The following Python scripts are needed to execute the program, along with their brief description:
 1. **bank_main.py**  -->  This is the main driver program that demonstrates loading data from csv file to memory, performing updates, and writing back updates to csv file.
