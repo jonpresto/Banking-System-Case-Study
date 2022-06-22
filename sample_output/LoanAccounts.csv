@@ -1,0 +1,3 @@
+customer_id,annual_interest_rate,balance,loan_amount,loan_account_number,number_of_years
+600000,0.145,17956.12,25000.0,555-678-101,7
+600001,0.132,21550.16,28000.0,555-689-102,7

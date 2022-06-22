@@ -1,0 +1,5 @@
+employee_id,location_id,first_name,last_name,salary,start_date,termination_date
+3000,105,Tina,Miller,55000.0,2015-01-01,
+3001,105,Daniel,Goodwin,60000.0,2015-01-01,2022-06-21
+3002,106,Jessica,Hall,68000.0,2016-12-10,
+3003,106,Walter,Underwood,78000.0,2016-10-15,
