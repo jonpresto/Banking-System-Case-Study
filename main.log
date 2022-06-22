@@ -1,0 +1,40 @@
+2022-06-21 20:43:33,814 main INFO: Bank locations file loaded to dictionary.
+2022-06-21 20:43:33,816 main INFO: Bank locations data was written to csv file at location sample_output/BankLocations.csv.
+2022-06-21 20:43:33,817 main INFO: Customers file loaded to dictionary.
+2022-06-21 20:43:33,817 main INFO: Last name updated for cust 600000.
+2022-06-21 20:43:33,817 main ERROR: Invalid membership date entered for cust 600011!
+2022-06-21 20:43:52,862 main INFO: Membership date updated to 2020-01-15 for cust 600011.
+2022-06-21 20:43:52,862 main ERROR: Invalid birth date entered for cust 600011!
+2022-06-21 20:44:04,237 main INFO: Birth date updated to 1965-09-08 for cust 600011.
+2022-06-21 20:44:04,240 main INFO: Customers data was written to csv file at location sample_output/Customers.csv.
+2022-06-21 20:44:04,240 main INFO: Employees file loaded to dictionary.
+2022-06-21 20:44:04,240 main INFO: Termination date updated to 2022-06-21 for employee 3001.
+2022-06-21 20:44:04,242 main INFO: Employees data was written to csv file at location sample_output/Employees.csv.
+2022-06-21 20:44:04,243 main INFO: Checking account file loaded to dictionary.
+2022-06-21 20:44:04,244 main INFO: Checking accounts data was written to csv file at location sample_output/CheckingAccounts.csv.
+2022-06-21 20:44:04,244 main INFO: Savings account file loaded to dictionary.
+2022-06-21 20:44:08,247 main INFO: Savings accounts data was written to csv file at location sample_output/SavingsAccounts.csv.
+2022-06-21 20:44:08,248 main INFO: Credit card file loaded to dictionary.
+2022-06-21 20:44:08,250 main INFO: Credit cards data was written to csv file at location sample_output/CreditCards.csv.
+2022-06-21 20:44:08,251 main INFO: Loan accounts file loaded to dictionary.
+2022-06-21 20:44:08,252 main INFO: Loan accounts data was written to csv file at location sample_output/LoanAccounts.csv.
+2022-06-21 22:02:01,391 main INFO: Bank locations file loaded to dictionary.
+2022-06-21 22:02:01,395 main INFO: Bank locations data was written to csv file at location sample_output/BankLocations.csv.
+2022-06-21 22:02:01,396 main INFO: Customers file loaded to dictionary.
+2022-06-21 22:02:01,396 main INFO: Last name updated for cust 600000.
+2022-06-21 22:02:01,397 main ERROR: Invalid membership date entered for cust 600011!
+2022-06-21 22:02:09,709 main INFO: Membership date updated to 2020-01-01 for cust 600011.
+2022-06-21 22:02:09,709 main ERROR: Invalid birth date entered for cust 600011!
+2022-06-21 22:02:15,269 main INFO: Birth date updated to 1967-09-08 for cust 600011.
+2022-06-21 22:02:15,272 main INFO: Customers data was written to csv file at location sample_output/Customers.csv.
+2022-06-21 22:02:15,273 main INFO: Employees file loaded to dictionary.
+2022-06-21 22:02:15,273 main INFO: Termination date updated to 2022-06-21 for employee 3001.
+2022-06-21 22:02:15,275 main INFO: Employees data was written to csv file at location sample_output/Employees.csv.
+2022-06-21 22:02:15,275 main INFO: Checking account file loaded to dictionary.
+2022-06-21 22:02:15,277 main INFO: Checking accounts data was written to csv file at location sample_output/CheckingAccounts.csv.
+2022-06-21 22:02:15,277 main INFO: Savings account file loaded to dictionary.
+2022-06-21 22:02:17,992 main INFO: Savings accounts data was written to csv file at location sample_output/SavingsAccounts.csv.
+2022-06-21 22:02:17,993 main INFO: Credit card file loaded to dictionary.
+2022-06-21 22:02:17,995 main INFO: Credit cards data was written to csv file at location sample_output/CreditCards.csv.
+2022-06-21 22:02:17,995 main INFO: Loan accounts file loaded to dictionary.
+2022-06-21 22:02:17,997 main INFO: Loan accounts data was written to csv file at location sample_output/LoanAccounts.csv.
