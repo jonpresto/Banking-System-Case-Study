@@ -12,8 +12,8 @@ Service, CreditCard(Service), and LoanAccount(Service).
 Refer to the UML Diagram file "UML_Diagram_Bank_System.pdf" to get an overview of the various classes and subclasses.
 
 The following Python scripts are needed to execute the program, along with their brief description:
-1. bank_main.py  -->  This is the main driver program that demonstrates loading data from csv file to memory, performing updates, and writing back updates to csv file.
-2. bank_classes_and_io_funcs.py  -->  This file contains the "meat" of the logic.  This is where Classes are defined, as well as their attributes and methods.  The file also defines some I/O utility functions for loading data to memory and writing data back to file.
-3. bank_data_quality_checks.py  -->  This file encapulates the functions for checking the validity of credit card numbers and date strings.  In addition, a logger was created to capture I/O events and data quality errors to file main.log.
+1. **bank_main.py**  -->  This is the main driver program that demonstrates loading data from csv file to memory, performing updates, and writing back updates to csv file.
+2. **bank_classes_and_io_funcs.py**  -->  This file contains the "meat" of the logic.  This is where Classes are defined, as well as their attributes and methods.  The file also defines some I/O utility functions for loading data to memory and writing data back to file.
+3. **bank_data_quality_checks.py**  -->  This file encapulates the functions for checking the validity of credit card numbers and date strings.  In addition, a logger was created to capture I/O events and data quality errors.  Messages are written to the file **main.log**.
 
-Sample datasets using fictitious data have been provided for demonstration purposes.  Refer to folders sample_input and sample_output.  Do not move these files as the driver program assumes the file locations.
+Sample datasets using fictitious data have been provided for demonstration purposes.  Refer to folders ***sample_input*** and ***sample_output***.  Do not move these files as the driver program assumes the file locations.
