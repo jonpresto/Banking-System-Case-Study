@@ -1,0 +1,11 @@
+customer_id,membership_date,first_name,last_name,birth_date,street_address,city,state,zip_code,phone_number
+600000,2019-01-90,Susan,Smith,1970-05-05,"1233 Main Street","Los Angeles",CA,90002,213-555-4434
+600001,2019-13-11,Adam,Lowe,1974-02-12,"189 Scholars Rd","Culver City",CA,90001,213-555-4434
+600002,2020-04-10,Jennifer,Garcia,1960-07-04,"944 Milford Way","Beverly Hills",CA,90210,323-444-4778
+600003,2020-02-14,Robert,Nielson,1966-08-02,"1554 Croft Ave","West Hollywood",CA,90069,323-669-4421
+600004,2020-03-16,Megan,Moore,1979-03-01,"222 La Cienega","West Hollywood",CA,90069,323-661-4888
+600005,2020-11-19,Gregory,Daniels,1990-03-21,"2255 Culver Blvd","Culver City",CA,90230,818-223-5551
+600006,2021-06-10,Joe,Black,1970-07-08,"1545 Hayworth Ave","West Hollywood",CA,90046,323-555-8890
+600007,2021-06-15,Anne,Grace,1976-08-05,"1267 Sunset Blvd","West Hollywood",CA,90046,323-555-1122
+600008,2021-09-01,Erik,Tillman,1980-02-14,"7789 Bronson Ave","Glendale",CA,91046,818-555-8895
+600009,2021-10-10,Janet,Coleman,1882-05-25,"5688 N Vista Way Apt 101","Studio City",CA,91604,323-444-1223
