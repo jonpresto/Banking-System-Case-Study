@@ -1,5 +1,5 @@
 # Banking-System-Case-Study
-The Bank Model demonstrates Python OOP Techniques.
+This simple Bank Model demonstrates Python OOP Techniques.
 
 ## Prerequisites
 Before you continue, ensure you have a basic understanding of Object-Oriented-Programming.
